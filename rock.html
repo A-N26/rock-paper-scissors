@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="scissors.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="title">🪨📃✂️</header>
+
+    <main class="match d-flex flex-column border border-info">
+
+        <header class="scores m-3 d-inline-flex justify-content-evenly text-center">
+            <section class="PlayerScoreCounter border p-2">
+                <h2 class="mt-3">Player</h2>
+                <icon><i class=" fa fa-child fa-2x"></i></icon>
+                <p class="PSC"><mark>0</mark></p>
+            </section>
+
+            <section class="AIScoreCounter border p-4">
+                <h2>AI</h2>
+                <icon><i class="fa fa-android fa-2x" aria-hidden="true"></i></icon>
+                <p class="AISC"><mark>0</mark></p>
+            </section>
+        </header>
+
+        <div class="game-board border border-success">
+            <section class="mx-5 p-2 text-center" >1, 2, 3 <strong>"GO!!"</strong></section>
+
+            <section class="gestures choices d-flex justify-content-around mt-3">
+                <button type="button" name="rock" id="rock" class="btn btn-sm btn-secondary" btn-lg btn-block">Rock <i class=" rh fa fa-hand-rock-o fa-border" aria-hidden="true"></i></button>
+                <button type="button" name="paper" id="paper" class="btn btn-sm btn-secondary" btn-lg btn-block">Paper <i class="rp fa fa-hand-paper-o fa-border" aria-hidden="true"></i></button>
+                <button type="button" name="Scissors" id="scissors" class="btn btn-sm btn-secondary" btn-lg btn-block">Scissors <i class="rs fa fa-hand-scissors-o fa-border" aria-hidden="true"></i></button>
+            </section>
+            <br/>
+        </div>
+
+        <div class="winner"></div>
+
+        <br/>
+
+        <blockquote class="MoveCount text-center"><u>Moves Remaining</u> <i class="fa fa-warning"></i> : <mark>10</mark>
+        </blockquote>
+
+        <button type="button" class="restart btn btn-danger d-flex justify-content-center mx-auto mb-1" btn-lg btn hidden></button>
+
+    </main>
+
+    <script type="text/javascript" src="paper.js"></script>
+</body>
+</html>

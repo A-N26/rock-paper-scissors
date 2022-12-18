@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: crimson;
+}
+
+.match {
+  width: 99.9vw;
+}
+
+.title {
+  text-align: center;
+  font-size: 4rem;
+  z-index: 2;
+}
+
+.btn:hover {
+  background-color: darkgreen !important;
+  color: black !important;
+}
