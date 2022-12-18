@@ -34,7 +34,7 @@ Html, CSS, Javascript, Bootstrap
 
 ## _Usage🖥️_
 
---
+![rps](rps.jpg)
 
 ## _Links📎_
 
