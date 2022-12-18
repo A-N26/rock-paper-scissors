@@ -103,7 +103,7 @@ const match = () => {
         }
         RestartBtn.innerText = 'Reload';
         RestartBtn.addEventListener('click', () => {
-            window.location.restart();
+            window.location.RestartBtn();
         })
     }
 
