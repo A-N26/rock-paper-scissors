@@ -17,7 +17,7 @@ Html, CSS, Javascript, Bootstrap
 ## _Table of Contents📖_
 
 - [Installation](#Installation)💾
-- [Usage](#Usage)🖥️
+- [Usage](#Usage)🖥
 - [Links](#Links)📎
 - [Credits](#Credits)💳
 - [Licence](#License)🪪
@@ -32,7 +32,7 @@ Html, CSS, Javascript, Bootstrap
 
 ---
 
-## _Usage🖥️_
+## _Usage🖥_
 
 ![rps](rps.jpg)
 
