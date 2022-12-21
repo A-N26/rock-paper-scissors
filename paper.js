@@ -35,6 +35,7 @@ const match = () => {
         const result = document.querySelector('.winner');
         const PlayerScoreUpdate = document.querySelector('.PlayerScoreCounter');
         const AIScoreUpdate = document.querySelector('.AIScoreCounter');
+
         if (Player === AI) {
             result.textContent = "It's a Tie...";
         }
